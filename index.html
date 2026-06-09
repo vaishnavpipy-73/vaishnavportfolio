@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaishnav S Nair — Founder & CEO, TechNext Technologies</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Personal portfolio of Vaishnav S Nair. Founder & CEO of TechNext Technologies, Freelance Web Developer, and AI-powered product builder. Transforming ideas into scalable digital experiences.">
+  <meta name="keywords" content="Vaishnav S Nair, TechNext Technologies, Wayanad, Kerala, Web Developer, Entrepreneur, Founder, B.Tech CSE, Freelance Developer, AI Developer, Vibe Coding">
+  <meta name="author" content="Vaishnav S Nair">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vaishnavsnair.in/">
+  <meta property="og:title" content="Vaishnav S Nair — Founder & CEO, TechNext Technologies">
+  <meta property="og:description" content="Transforming startup and business ideas into scalable web applications through premium design and AI-assisted workflows.">
+  <meta property="og:image" content="https://technexttechnologies.in/og-image.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Vaishnav S Nair — Founder & CEO, TechNext Technologies">
+  <meta property="twitter:description" content="Transforming startup and business ideas into scalable web applications through premium design and AI-assisted workflows.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Vaishnav S Nair",
+    "jobTitle": "Founder & CEO",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "TechNext Technologies",
+      "url": "https://technexttechnologies.in"
+    },
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "TOCH Institute of Science and Technology"
+    },
+    "url": "https://vaishnavsnair.in",
+    "email": "vaishnavpipy@gmail.com",
+    "telephone": "+919446540984",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Wayanad",
+      "addressRegion": "Kerala",
+      "addressCountry": "India"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/vaishnav-s-nair-a3366a37a",
+      "https://www.instagram.com/vaishnav_.s._nair"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor" id="customCursor"></div>
+  <div class="custom-cursor-glow" id="customCursorGlow"></div>
+
+  <!-- Loading Experience -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-content">
+      <div class="loader-orb"></div>
+      <div class="loader-progress-container">
+        <div class="loader-progress-bar" id="progressBar"></div>
+      </div>
+      <div class="loader-percentage" id="progressPercentage">0%</div>
+    </div>
+  </div>
+
+  <!-- Interactive Gradient Background Orbs -->
+  <div class="ambient-orbs-container">
+    <div class="ambient-orb orb-1" id="orb1"></div>
+    <div class="ambient-orb orb-2" id="orb2"></div>
+    <div class="ambient-orb orb-3" id="orb3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo text-hover" id="navLogo">V.S.N</a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active text-hover" id="link-home">Home</a></li>
+        <li><a href="#about" class="nav-link text-hover" id="link-about">About</a></li>
+        <li><a href="#skills" class="nav-link text-hover" id="link-skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link text-hover" id="link-projects">Projects</a></li>
+        <li><a href="#technext" class="nav-link text-hover" id="link-technext">TechNext</a></li>
+        <li><a href="#contact" class="nav-link text-hover" id="link-contact">Contact</a></li>
+      </ul>
+      <div class="nav-toggle" id="navToggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="container hero-container">
+        <!-- Floating Interactive Decorative Element instead of photo -->
+        <div class="hero-graphic-container">
+          <div class="hero-graphic-core">
+            <div class="floating-ring ring-1"></div>
+            <div class="floating-ring ring-2"></div>
+            <div class="floating-ring ring-3"></div>
+            <div class="hero-orb-glow"></div>
+            <div class="particle-emitter" id="particleEmitter"></div>
+          </div>
+        </div>
+        
+        <div class="hero-content">
+          <div class="hero-badge animate-fade-in">
+            <span class="pulse-dot"></span>
+            Entrepreneur • Web Developer • Founder • AI-Powered Builder
+          </div>
+          
+          <h1 class="hero-title animate-title">
+            Building Digital Products for the <span class="gradient-text-indigo">Modern Web</span>
+          </h1>
+          
+          <p class="hero-subheadline animate-text-reveal">
+            Founder & CEO of TechNext Technologies • Freelance Web Developer • AI-Powered Product Builder
+          </p>
+          
+          <p class="hero-description animate-fade-in-delayed">
+            I help businesses and startups transform ideas into scalable digital experiences through modern web development, creative design, and AI-enhanced workflows.
+          </p>
+          
+          <div class="hero-actions animate-fade-in-delayed">
+            <a href="https://technexttechnologies.in" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-magnetic text-hover" id="heroBtnProjects">
+              <span>View Projects</span>
+              <i data-lucide="arrow-up-right"></i>
+            </a>
+            <a href="https://appoinmentform.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-magnetic text-hover" id="heroBtnBooking">
+              <span>Book Appointment</span>
+              <i data-lucide="calendar"></i>
+            </a>
+          </div>
+          
+          <div class="hero-socials animate-fade-in-delayed">
+            <a href="https://www.linkedin.com/in/vaishnav-s-nair-a3366a37a" target="_blank" rel="noopener noreferrer" class="social-link text-hover" aria-label="LinkedIn" id="heroSocialLinkedin">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/vaishnav_.s._nair?igsh=MXJ3ODEyOWs0dDZuNw==" target="_blank" rel="noopener noreferrer" class="social-link text-hover" aria-label="Instagram" id="heroSocialInstagram">
+              <i data-lucide="instagram"></i>
+            </a>
+            <a href="mailto:vaishnavpipy@gmail.com" class="social-link text-hover" aria-label="Email" id="heroSocialEmail">
+              <i data-lucide="mail"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About</span>
+          <h2 class="section-title">Background & Vision</h2>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-text-card glass-card">
+            <p class="about-description">
+              Currently pursuing a B.Tech in Computer Science Engineering (2nd Year) at TOCH Institute of Science and Technology, Ernakulam, while building TechNext Technologies and delivering digital solutions for businesses.
+            </p>
+            <p class="about-description">
+              My work combines development, design, entrepreneurship, and AI-powered workflows to create impactful digital experiences that bridge technology and business objectives.
+            </p>
+            <div class="about-meta">
+              <div class="meta-item">
+                <span class="meta-label">Location</span>
+                <span class="meta-val">Wayanad, Kerala, India</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Role</span>
+                <span class="meta-val">Founder & CEO, TechNext Technologies</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Skills</span>
+          <h2 class="section-title">Areas of Expertise</h2>
+          <p class="section-subtitle skills-intro animate-fade-in-delayed">
+            I combine modern web technologies, creative design, and AI-powered workflows to build scalable digital products and business solutions.
+          </p>
+        </div>
+        
+        <div class="skills-grid">
+          
+          <!-- AI-Powered Development (Visual Emphasis) -->
+          <div class="skills-card glass-card highlighted-card" id="skillCardAI">
+            <div class="highlight-border"></div>
+            <div class="card-icon">
+              <i data-lucide="sparkles" class="icon-emerald"></i>
+            </div>
+            <h3>AI-Powered Development</h3>
+            <p class="skills-statement">
+              I leverage AI-powered development workflows to rapidly transform ideas into production-ready digital products while maintaining high standards of quality, performance, and user experience.
+            </p>
+            <div class="skills-badges">
+              <span class="skill-badge">Claude AI</span>
+              <span class="skill-badge">Cursor AI</span>
+              <span class="skill-badge">Antigravity</span>
+              <span class="skill-badge">ChatGPT</span>
+              <span class="skill-badge">AI-Assisted Development</span>
+              <span class="skill-badge">Prompt Engineering</span>
+              <span class="skill-badge">Rapid Prototyping</span>
+              <span class="skill-badge">Workflow Automation</span>
+              <span class="skill-badge">Product Development</span>
+            </div>
+          </div>
+          
+          <!-- Full-Stack Development -->
+          <div class="skills-card glass-card" id="skillCardDev">
+            <div class="card-icon">
+              <i data-lucide="code" class="icon-indigo"></i>
+            </div>
+            <h3>Full-Stack Development</h3>
+            <div class="skills-badges">
+              <span class="skill-badge">HTML5</span>
+              <span class="skill-badge">CSS3</span>
+              <span class="skill-badge">JavaScript</span>
+              <span class="skill-badge">React.js</span>
+              <span class="skill-badge">Next.js</span>
+              <span class="skill-badge">Tailwind CSS</span>
+              <span class="skill-badge">Node.js</span>
+              <span class="skill-badge">REST APIs</span>
+              <span class="skill-badge">Responsive Web Design</span>
+              <span class="skill-badge">Performance Optimization</span>
+            </div>
+          </div>
+
+          <!-- Design & Creative -->
+          <div class="skills-card glass-card" id="skillCardDesign">
+            <div class="card-icon">
+              <i data-lucide="palette" class="icon-purple"></i>
+            </div>
+            <h3>Design & Creative</h3>
+            <div class="skills-badges">
+              <span class="skill-badge">Adobe Photoshop</span>
+              <span class="skill-badge">Adobe Premiere Pro</span>
+              <span class="skill-badge">Adobe After Effects</span>
+              <span class="skill-badge">UI/UX Design</span>
+              <span class="skill-badge">Motion Design</span>
+              <span class="skill-badge">Branding & Visual Identity</span>
+            </div>
+          </div>
+
+          <!-- Tools & Platforms -->
+          <div class="skills-card glass-card" id="skillCardTools">
+            <div class="card-icon">
+              <i data-lucide="wrench" class="icon-orange"></i>
+            </div>
+            <h3>Tools & Platforms</h3>
+            <div class="skills-badges">
+              <span class="skill-badge">Git</span>
+              <span class="skill-badge">GitHub</span>
+              <span class="skill-badge">Vercel</span>
+              <span class="skill-badge">Firebase</span>
+              <span class="skill-badge">Figma</span>
+              <span class="skill-badge">VS Code</span>
+            </div>
+          </div>
+
+          <!-- Business & Strategy -->
+          <div class="skills-card glass-card" id="skillCardBiz">
+            <div class="card-icon">
+              <i data-lucide="trending-up" class="icon-blue"></i>
+            </div>
+            <h3>Business & Strategy</h3>
+            <div class="skills-badges">
+              <span class="skill-badge">Entrepreneurship</span>
+              <span class="skill-badge">Client Communication</span>
+              <span class="skill-badge">Project Management</span>
+              <span class="skill-badge">SEO Optimization</span>
+              <span class="skill-badge">Digital Strategy</span>
+              <span class="skill-badge">Technology Consulting</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Selected Projects</h2>
+          <p class="section-subtitle animate-fade-in-delayed">
+            Selected projects showcasing my approach to modern development, design, and problem-solving.
+          </p>
+        </div>
+        
+        <div class="projects-container">
+          <!-- Featured Project Card (Full Width Highlight) -->
+          <div class="project-card featured-project-card glass-card" id="featuredProject">
+            <div class="project-preview">
+              <div class="project-orb" style="background: radial-gradient(circle, rgba(99,102,241,0.25) 0%, rgba(0,0,0,0) 70%);"></div>
+              <div class="project-glow-border"></div>
+              <span class="project-category-badge">Custom Web Platforms</span>
+            </div>
+            <div class="project-info">
+              <div class="project-info-header">
+                <h3>TechNext Technologies</h3>
+                <span class="featured-indicator"><i data-lucide="star"></i> Flagship Platform</span>
+              </div>
+              <p class="project-description-text">
+                Designed and developed a high-performance business platform focused on user experience, digital branding, and client acquisition, accelerating startup growth.
+              </p>
+              <div class="project-tags">
+                <span>React.js</span>
+                <span>Vanilla CSS</span>
+                <span>GSAP</span>
+                <span>SEO Optimization</span>
+                <span>Lenis Smooth Scroll</span>
+              </div>
+              <div class="project-actions-btns">
+                <a href="https://technexttechnologies.in" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-hover">
+                  <span>Live Preview</span>
+                  <i data-lucide="external-link"></i>
+                </a>
+                <a href="https://technextcatlog.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary text-hover">
+                  <span>Project Details</span>
+                  <i data-lucide="arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Standard Projects Grid -->
+          <div class="projects-grid">
+            <!-- Project 2: TechNext Catalog -->
+            <div class="project-card glass-card" id="project2">
+              <div class="project-preview">
+                <div class="project-orb" style="background: radial-gradient(circle, rgba(168,85,247,0.2) 0%, rgba(0,0,0,0) 70%);"></div>
+                <div class="project-glow-border"></div>
+                <span class="project-category-badge">Portfolio Websites</span>
+              </div>
+              <div class="project-info">
+                <h3>TechNext Product Catalog</h3>
+                <p>Created a high-performance catalog displaying custom products and pricing configurations to streamline client onboarding.</p>
+                <div class="project-tags">
+                  <span>Next.js</span>
+                  <span>Vite</span>
+                  <span>Tailwind CSS</span>
+                  <span>Vibe Coding</span>
+                </div>
+                <div class="project-actions-btns">
+                  <a href="https://technextcatlog.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-btn text-hover">
+                    <span>Live Preview</span>
+                    <i data-lucide="external-link"></i>
+                  </a>
+                  <a href="https://technextcatlog.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-btn text-hover">
+                    <span>Project Details</span>
+                    <i data-lucide="arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3: Appointment Booking -->
+            <div class="project-card glass-card" id="project3">
+              <div class="project-preview">
+                <div class="project-orb" style="background: radial-gradient(circle, rgba(16,185,129,0.2) 0%, rgba(0,0,0,0) 70%);"></div>
+                <div class="project-glow-border"></div>
+                <span class="project-category-badge">AI-Powered Applications</span>
+              </div>
+              <div class="project-info">
+                <h3>Client Scheduling Portal</h3>
+                <p>Engineered an intelligent appointment scheduling application that optimizes slot allocation and client data management.</p>
+                <div class="project-tags">
+                  <span>HTML/JS</span>
+                  <span>Firebase</span>
+                  <span>REST APIs</span>
+                  <span>Workflow Automation</span>
+                </div>
+                <div class="project-actions-btns">
+                  <a href="https://appoinmentform.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-btn text-hover">
+                    <span>Live Preview</span>
+                    <i data-lucide="external-link"></i>
+                  </a>
+                  <a href="https://technextcatlog.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-btn text-hover">
+                    <span>Project Details</span>
+                    <i data-lucide="arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-actions">
+          <a href="https://technextcatlog.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary text-hover" id="catalogBtn">
+            <span>View Full Project Catalog</span>
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- TechNext Technologies Dedicated Section -->
+    <section class="technext section" id="technext">
+      <div class="container">
+        <div class="technext-card glass-card">
+          <div class="technext-grid">
+            <div class="technext-content">
+              <span class="section-tag tag-purple">Corporate Showcase</span>
+              <h2 class="technext-title">TechNext Technologies</h2>
+              <p class="technext-description">
+                TechNext Technologies helps businesses establish a powerful digital presence through modern web development, creative design, AI-powered solutions, and technology-driven innovation.
+              </p>
+              <a href="https://technexttechnologies.in" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-hover" id="technextBtnVisit">
+                <span>Visit Company Website</span>
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+            </div>
+            
+            <div class="technext-services">
+              <h3>Services Offered</h3>
+              <ul class="services-list-items">
+                <li><i data-lucide="check-circle-2"></i> Business Websites</li>
+                <li><i data-lucide="check-circle-2"></i> Portfolio Websites</li>
+                <li><i data-lucide="check-circle-2"></i> E-Commerce Solutions</li>
+                <li><i data-lucide="check-circle-2"></i> Custom Web Applications</li>
+                <li><i data-lucide="check-circle-2"></i> SEO Optimization</li>
+                <li><i data-lucide="check-circle-2"></i> Digital Solutions</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Build Something Great Together</h2>
+          <p class="section-subtitle">Interested in working together? Let's discuss your next project.</p>
+        </div>
+        
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info glass-card">
+            <h3>Direct Contact</h3>
+            <div class="info-items">
+              <a href="mailto:vaishnavpipy@gmail.com" class="info-item text-hover" id="contactEmailLink">
+                <div class="info-icon"><i data-lucide="mail"></i></div>
+                <div class="info-details">
+                  <span class="info-label">Email</span>
+                  <span class="info-val">vaishnavpipy@gmail.com</span>
+                </div>
+              </a>
+              <a href="tel:+919446540984" class="info-item text-hover" id="contactPhoneLink">
+                <div class="info-icon"><i data-lucide="phone"></i></div>
+                <div class="info-details">
+                  <span class="info-label">Phone</span>
+                  <span class="info-val">+91 9446540984</span>
+                </div>
+              </a>
+            </div>
+            
+            <div class="consultation-box">
+              <h4>Ready to start?</h4>
+              <p>Skip the form and book a call directly in my schedule.</p>
+              <a href="https://appoinmentform.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-hover" id="contactBtnConsultation">
+                <span>Book Free Consultation</span>
+                <i data-lucide="calendar"></i>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Contact Form -->
+          <div class="contact-form-container glass-card">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="formName">Name</label>
+                <input type="text" id="formName" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="formEmail">Email</label>
+                <input type="email" id="formEmail" name="email" placeholder="your@email.com" required>
+              </div>
+              <div class="form-group">
+                <label for="formMessage">Message</label>
+                <textarea id="formMessage" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full text-hover" id="formSubmitBtn">
+                <span>Send Message</span>
+                <i data-lucide="send"></i>
+              </button>
+            </form>
+            <div class="form-success-message" id="formSuccessMessage">
+              <div class="success-icon"><i data-lucide="check"></i></div>
+              <h3>Message Sent Successfully!</h3>
+              <p>Thank you. I will get back to you within 24 hours.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <h3 class="footer-logo">Vaishnav S Nair</h3>
+        <p class="footer-tagline">Founder & CEO, TechNext Technologies</p>
+        <p class="footer-location">Wayanad, Kerala, India</p>
+      </div>
+      
+      <div class="footer-links-group">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="https://technexttechnologies.in" target="_blank" rel="noopener noreferrer" class="text-hover" id="footerLinkCompany">Company Website</a></li>
+          <li><a href="https://technextcatlog.vercel.app/" target="_blank" rel="noopener noreferrer" class="text-hover" id="footerLinkCatalog">Project Catalog</a></li>
+          <li><a href="https://appoinmentform.vercel.app/" target="_blank" rel="noopener noreferrer" class="text-hover" id="footerLinkBooking">Appointment Booking</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-socials">
+        <h4>Connect</h4>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/vaishnav-s-nair-a3366a37a" target="_blank" rel="noopener noreferrer" class="social-icon text-hover" aria-label="LinkedIn" id="footerSocialLinkedin">
+            <i data-lucide="linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/vaishnav_.s._nair?igsh=MXJ3ODEyOWs0dDZuNw==" target="_blank" rel="noopener noreferrer" class="social-icon text-hover" aria-label="Instagram" id="footerSocialInstagram">
+            <i data-lucide="instagram"></i>
+          </a>
+          <a href="mailto:vaishnavpipy@gmail.com" class="social-icon text-hover" aria-label="Email" id="footerSocialEmail">
+            <i data-lucide="mail"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Vaishnav S Nair. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- GSAP & Lenis smooth scroll CDNs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
